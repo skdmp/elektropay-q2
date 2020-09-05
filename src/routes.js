@@ -62,6 +62,7 @@ const PageJobDetail = React.lazy(() => import('./pages/Pages/Careers/page-job-de
 const PageJobApply = React.lazy(() => import('./pages/Pages/Careers/page-job-apply'));
 const PageJobCompany = React.lazy(() => import('./pages/Pages/Careers/page-job-company'));
 const PageJobCandidate = React.lazy(() => import('./pages/Pages/Careers/page-job-candidate'));
+const PageMarketPlace = React.lazy(() => import('./pages/Pages/Careers/page-market-place'));
 
 //Blog
 const PageBlog = React.lazy(() => import('./pages/Pages/Blog/PageBlog'));
@@ -173,6 +174,7 @@ const routes = [
     { path: '/page-jobs-sidebar', component: PageJobsSidebar },
     { path: '/page-job-company', component: PageJobCompany },
     { path: '/page-job-candidate', component: PageJobCandidate },
+    { path: '/page-jobs', component: PageMarketPlace },
 
     //Page Blog
     { path: '/page-blog', component: PageBlog },
