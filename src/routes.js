@@ -102,6 +102,7 @@ const ContactSupport = React.lazy(() => import('./pages/Pages/Company/Careers'))
 const Careers = React.lazy(() => import('./pages/Pages/Company/Careers'));
 const Elektrobytes = React.lazy(() => import('./pages/Pages/Company/Elektrobytes'));
 const Partners = React.lazy(() => import('./pages/Pages/Company/Partners'));
+const CardProcessing = React.lazy(() => import('./pages/Pages/Company/CardProcessing'));
 
 const routes = [
     //routes without Layout
@@ -211,6 +212,7 @@ const routes = [
     { path: '/careers', component: Careers },
     { path: '/elektrobytes', component: Elektrobytes },
     { path: '/partners', component: Partners },
+    { path: '/page-card-process', component: CardProcessing },
 
     //Index Main
     { path: '/index', component: Main },

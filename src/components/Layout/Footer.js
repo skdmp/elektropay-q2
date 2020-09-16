@@ -14,7 +14,7 @@ class Footer extends Component {
     super(props);
     this.state = {
         grid1 : [
-            { title : "Card Processing", link : "/page-aboutus" },
+            { title : "Card Processing", link : "/page-card-process" },
             { title : "Omni Commerce", link : "/page-services" },
             { title : "Crypto Processing", link : "/page-team" },
             { title : "Real-Time Processing", link : "/page-team" },
